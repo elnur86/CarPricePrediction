@@ -5,6 +5,7 @@ import numpy as np
 import datetime
 
 import altair as alt
+import sklearn
 
 from sklearn.model_selection import cross_val_score
 from sklearn.model_selection import train_test_split
