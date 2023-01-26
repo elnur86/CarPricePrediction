@@ -9,7 +9,7 @@ import altair as alt
 
 
 icon=Image.open('images/icon.png')
-banner=Image.open('images/logo_s.png')
+banner=Image.open('images/car.png')
 
 st.set_page_config(layout="wide",
                    page_title="Python",
