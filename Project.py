@@ -4,6 +4,8 @@ from PIL import Image
 import numpy as np
 import datetime
 
+import altair
+
 
 icon=Image.open('images/icon.png')
 banner=Image.open('images/car.png')
