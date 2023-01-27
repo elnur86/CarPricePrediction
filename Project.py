@@ -92,7 +92,7 @@ with tab2:
     st.altair_chart(chart_old_new, theme=None, use_container_width=True)
     
 with tab3:
-   st.markdown('**Avtomobillərin qiymətlərini təyin etmək üçün aşağıdakı Python kitabxanalardan istifadə olunub**')
+   st.markdown('**Avtomobillərin qiymətlərini təyin etmək üçün aşağıdakı Python kitabxanalarından istifadə olunub**')
    st.markdown('_BeautifulSoup_')
    st.markdown('_Pandas_')
    st.markdown('_NumPy_')
