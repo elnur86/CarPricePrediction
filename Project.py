@@ -4,9 +4,6 @@ from PIL import Image
 import numpy as np
 import datetime
 
-import altair as alt
-
-
 
 icon=Image.open('images/icon.png')
 banner=Image.open('images/car.png')
@@ -234,7 +231,7 @@ if st.sidebar.button("Qiyməti Hesabla"):
     with tab1:
         st.header(" ")
         st.header(" ")
-        st.header("Sizin avtomobilinizi")
+        st.header("Siz avtomobilinizi ",menu, " ",menu_Model )
         predicted_price=int(y_loded_model_pred[0])
         low_price=round(predicted_price*0.95,-2)
         high_price=round(predicted_price*1.05,-2)
@@ -254,7 +251,7 @@ if st.sidebar.button("Qiyməti Hesabla"):
             pass
         with col6:
             pass
-        st.header("AZN aralığında avtomobilinizi sata bilərsiniz")
+        st.header("AZN aralığında sata bilərsiniz")
 
 milage=0
 
