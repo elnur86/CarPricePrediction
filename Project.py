@@ -5,19 +5,7 @@ import numpy as np
 import datetime
 
 import altair as alt
-import sklearn
 
-from sklearn.model_selection import cross_val_score
-from sklearn.model_selection import train_test_split
-
-from sklearn.preprocessing import StandardScaler
-from sklearn.preprocessing import OneHotEncoder
-
-from sklearn.pipeline import Pipeline
-from sklearn.compose import ColumnTransformer
-
-
-from sklearn.tree import DecisionTreeRegressor
 
 
 icon=Image.open('images/icon.png')
