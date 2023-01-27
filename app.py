@@ -92,7 +92,7 @@ with tab2:
     st.altair_chart(chart_old_new, theme=None, use_container_width=True)
     
 with tab3:
-   st.markdown('**Avtomobillərin qiymətlərini təyin etmək üçün aşağıdakı Python kitabxanalardan istifadə olunub**')
+   st.markdown('**Avtomobillərin qiymətlərini təyin etmək üçün aşağıdakı Python kitabxanalarından istifadə olunub**')
    st.markdown('_BeautifulSoup_')
    st.markdown('_Pandas_')
    st.markdown('_NumPy_')
@@ -105,7 +105,7 @@ with tab3:
    st.markdown('~15000 sətr avtomobil məlumatı _scrap_ olunduqdan sonra məlumatların ilkin təmizlik prossesi həyata keçirilib.\
                Mövcud sütunların qiymətə təsirini nəzərə alaraq, az təsirli və bir-birindən aslı (motorun həcmi və at gücü) sütunlar silinib.\
                Sütunlar _encode_, sətirlər isə _train_ və _test_ olaraq 80-20 nisbətində ayrılıb.\
-               _Train_ məlumatlar _DecisionTreeRegressor_ modelinə öyrənildikdən sonra, _test_ məlumatlar yoxlanılıb.')
+               _Train_ məlumatlar _DecisionTreeRegressor_ modelinə öyrədildikdən sonra, _test_ məlumatlar yoxlanılıb.')
    
    st.markdown('Öyrənmiş _model_, streamlit vasitəsi ilə yazılmış tətbiqdə istifadə edilməsi üçün _deploy_ olunub.')
    st.markdown('_Model_ növbəti günlərdə daha çox məlumat ilə yenidən öyrəniləcək. Avtomobillərin qiyməti hər il - ay dəyişdiyinə görə _modelimiz_ eyni şəkildə yenilənəcək.')
