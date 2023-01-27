@@ -231,7 +231,7 @@ if st.sidebar.button("Qiyməti Hesabla"):
     with tab1:
         st.header(" ")
         st.header(" ")
-        st.header("Siz avtomobilinizi ",menu," ",menu_Model )
+        st.header("Siz avtomobilinizi " )
         predicted_price=int(y_loded_model_pred[0])
         low_price=round(predicted_price*0.95,-2)
         high_price=round(predicted_price*1.05,-2)
